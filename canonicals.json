@@ -1,0 +1,1017 @@
+[
+  {
+    "id": "jp-core-work-codesystem-observation-physicalExamCodes",
+    "type": "CodeSystem",
+    "url": "http://jpfhir.jp/fhir/Common/CodeSystem/observation-physicalExamCodes",
+    "version": "1.1.0a",
+    "name": "ObservationPhysicalExamCodes"
+  },
+  {
+    "id": "jp-client-capabilitystatement",
+    "type": "CapabilityStatement",
+    "url": "http://jpfhir.jp/fhir/core/CapabilityStatement/jp-client-capabilitystatement",
+    "version": "1.1.0a",
+    "name": "JPCoreClientCapabilityStatement"
+  },
+  {
+    "id": "jp-server-capabilitystatement",
+    "type": "CapabilityStatement",
+    "url": "http://jpfhir.jp/fhir/core/CapabilityStatement/jp-server-capabilitystatement",
+    "version": "1.1.0a",
+    "name": "JPCoreServerCapabilityStatement"
+  },
+  {
+    "id": "3dcc02c6-c298-4fb0-bdd2-e19a6728ba24",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Coverage_InsuredPersonNumber",
+    "version": "1.1.0a",
+    "name": "JP_Coverage_InsuredPersonNumber"
+  },
+  {
+    "id": "972fb17c-7248-40c0-8508-94c00e1c10f2",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Coverage_InsuredPersonSubNumber",
+    "version": "1.1.0a",
+    "name": "JP_Coverage_InsuredPersonSubNumber"
+  },
+  {
+    "id": "73958ac3-9a9d-4c07-8c35-3b277923492e",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Coverage_InsuredPersonSymbol",
+    "version": "1.1.0a",
+    "name": "JP_Coverage_InsuredPersonSymbol"
+  },
+  {
+    "id": "4327927e-6d72-442a-bd48-5d5b059bd8fe",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationAdministration_DosageMethod_MethodComment",
+    "version": "1.1.0a",
+    "name": "JP_MedicationAdministration_DosageMethod_MethodComment"
+  },
+  {
+    "id": "5f45be03-73b5-425d-94fb-ff7dac12b87c",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationAdministration_DosageRate_RateComment",
+    "version": "1.1.0a",
+    "name": "JP_MedicationAdministration_DosageRate_RateComment"
+  },
+  {
+    "id": "7d2bd9f9-3e77-423c-be7f-8602a284fe0a",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationAdministration_DosageRoute_RouteComment",
+    "version": "1.1.0a",
+    "name": "JP_MedicationAdministration_DosageRoute_RouteComment"
+  },
+  {
+    "id": "cb26a2d4-7cfc-47c9-b3ef-0bc2cfb8aeb7",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationAdministration_DosageSite_SiteComment",
+    "version": "1.1.0a",
+    "name": "JP_MedicationAdministration_DosageSite_SiteComment"
+  },
+  {
+    "id": "b8b80771-bdbb-4ce3-b7d5-9b56f90ff304",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationAdministration_Dosage_DosageComment",
+    "version": "1.1.0a",
+    "name": "JP_MedicationAdministration_Dosage_DosageComment"
+  },
+  {
+    "id": "7a1b4824-7464-47b1-ba4d-dad4dd006663",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationAdministration_Dosage_LineComment",
+    "version": "1.1.0a",
+    "name": "JP_MedicationAdministration_Dosage_LineComment"
+  },
+  {
+    "id": "78061a6c-42e8-402d-8f76-6fdac69f7f90",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationAdministration_Location",
+    "version": "1.1.0a",
+    "name": "JP_MedicationAdministration_Location"
+  },
+  {
+    "id": "dd47eb40-6be1-479f-9902-e03defe748bf",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationAdministration_RequestAuthoredOn",
+    "version": "1.1.0a",
+    "name": "JP_MedicationAdministration_RequestAuthoredOn"
+  },
+  {
+    "id": "dbe80def-ec8a-4a76-a3f7-17c75c6fd1a1",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationAdministration_RequestDepartment",
+    "version": "1.1.0a",
+    "name": "JP_MedicationAdministration_RequestDepartment"
+  },
+  {
+    "id": "531d2d2b-2c3d-4f42-99f4-bebc6b26e674",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationAdministration_Requester",
+    "version": "1.1.0a",
+    "name": "JP_MedicationAdministration_Requester"
+  },
+  {
+    "id": "JP-MedicationAdministration-UncategorizedComment",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationAdministration_UncategorizedComment",
+    "version": "1.1.0a",
+    "name": "JP_MedicationAdministration_UncategorizedComment"
+  },
+  {
+    "id": "41bcb8d5-3940-4baf-8b00-9b8fbaa8ae5d",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationDispense_Preparation",
+    "version": "1.1.0a",
+    "name": "JP_MedicationDispense_Preparation"
+  },
+  {
+    "id": "996ef0bf-8b22-46e5-bc34-46c7bd6c6926",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationRequest_DispenseRequest_ExpectedRepeatCount",
+    "version": "1.1.0a",
+    "name": "JP_MedicationRequest_DispenseRequest_ExpectedRepeatCount"
+  },
+  {
+    "id": "91cc41f3-a701-4cbe-b9bc-7d810bb7e9e5",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationRequest_DispenseRequest_InstructionForDispense",
+    "version": "1.1.0a",
+    "name": "JP_MedicationRequest_DispenseRequest_InstructionForDispense"
+  },
+  {
+    "id": "6d3333b3-d0f9-4b48-bd78-abfcbaad19fe",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationRequest_DosageInstruction_Device",
+    "version": "1.1.0a",
+    "name": "JP_MedicationRequest_DosageInstruction_Device"
+  },
+  {
+    "id": "3c153c8f-bc10-4109-8552-0a8ad65498d9",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationRequest_DosageInstruction_Line",
+    "version": "1.1.0a",
+    "name": "JP_MedicationRequest_DosageInstruction_Line"
+  },
+  {
+    "id": "a6ce827d-1083-49c4-b538-201c18de518d",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationRequest_DosageInstruction_PeriodOfUse",
+    "version": "1.1.0a",
+    "name": "JP_MedicationRequest_DosageInstruction_PeriodOfUse"
+  },
+  {
+    "id": "d2a74cc1-3928-4f1d-afe8-e7b49a2b4b04",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationRequest_DosageInstruction_UsageDuration",
+    "version": "1.1.0a",
+    "name": "JP_MedicationRequest_DosageInstruction_UsageDuration"
+  },
+  {
+    "id": "88c8b7c4-fbfa-4a42-814d-071dc8acb4eb",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Medication_IngredientStrength_StrengthType",
+    "version": "1.1.0a",
+    "name": "JP_Medication_IngredientStrength_StrengthType"
+  },
+  {
+    "id": "4b53c2de-7595-40da-9c04-bb912b394f27",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Medication_Ingredient_DrugNo",
+    "version": "1.1.0a",
+    "name": "JP_Medication_Ingredient_DrugNo"
+  },
+  {
+    "id": "JP-Observation-BodySite-BodySitePosition",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Observation_BodySite_BodySitePosition",
+    "version": "1.1.0a",
+    "name": "JP_Observation_BodySite_BodySitePosition"
+  },
+  {
+    "id": "01530641-bc1b-4c76-a182-40fae3251e98",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Organization_InsuranceOrganizationCategory",
+    "version": "1.1.0a",
+    "name": "JP_Organization_InsuranceOrganizationCategory"
+  },
+  {
+    "id": "0951c1d5-7a75-488e-9e00-b2807dba71e5",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Organization_InsuranceOrganizationNo",
+    "version": "1.1.0a",
+    "name": "JP_Organization_InsuranceOrganizationNo"
+  },
+  {
+    "id": "147dd0ac-e43c-45c7-b994-7494b7cb0848",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Organization_PrefectureNo",
+    "version": "1.1.0a",
+    "name": "JP_Organization_PrefectureNo"
+  },
+  {
+    "id": "b14aa99c-ab14-403f-8efd-4a9de985514d",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Patient_Race",
+    "version": "1.1.0a",
+    "name": "JP_Patient_Race"
+  },
+  {
+    "id": "hl7.fhir.jp.core",
+    "type": "ImplementationGuide",
+    "url": "http://jpfhir.jp/fhir/core/ImplementationGuide/hl7.fhir.jp.core",
+    "version": "1.1.0a",
+    "name": "FHIRJPCoreImplementationGuide"
+  },
+  {
+    "id": "jp-allergyintolerance-category-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-allergyintolerance-category-sp",
+    "version": "1.1.0a",
+    "name": "JPAllergyIntoleranceCategorySP"
+  },
+  {
+    "id": "jp-allergyintolerance-clinicalstatus-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-allergyintolerance-clinicalstatus-sp",
+    "version": "1.1.0a",
+    "name": "JPAllergyintoleranceClinicalStatusSP"
+  },
+  {
+    "id": "jp-allergyintolerance-criticality-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-allergyintolerance-criticality-sp",
+    "version": "1.1.0a",
+    "name": "JPAllergyIntoleranceCriticalitySP"
+  },
+  {
+    "id": "jp-allergyintolerance-date-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-allergyintolerance-date-sp",
+    "version": "1.1.0a",
+    "name": "JPAllergyIntoleranceDateSP"
+  },
+  {
+    "id": "jp-allergyintolerance-patient-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-allergyintolerance-patient-sp",
+    "version": "1.1.0a",
+    "name": "JPAllergyIntolerancePatientSP"
+  },
+  {
+    "id": "jp-allergyintolerance-type-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-allergyintolerance-type-sp",
+    "version": "1.1.0a",
+    "name": "JPAllergyIntoleranceTypeSP"
+  },
+  {
+    "id": "jp-allergyintolerance-verificationstatus-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-allergyintolerance-verificationstatus-sp",
+    "version": "1.1.0a",
+    "name": "JPAllergyIntoleranceVerificationStatusSP"
+  },
+  {
+    "id": "jp-condition-category-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-condition-category-sp",
+    "version": "1.1.0a",
+    "name": "JPConditionCategorySP"
+  },
+  {
+    "id": "jp-condition-clinicalstatus-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-condition-clinicalstatus-sp",
+    "version": "1.1.0a",
+    "name": "JPConditionClinicalStatusSP"
+  },
+  {
+    "id": "jp-condition-date-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-condition-date-sp",
+    "version": "1.1.0a",
+    "name": "JPConditionDateSP"
+  },
+  {
+    "id": "jp-condition-patient-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-condition-patient-sp",
+    "version": "1.1.0a",
+    "name": "JPConditionPatientSP"
+  },
+  {
+    "id": "jp-condition-verificationstatus-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-condition-verificationstatus-sp",
+    "version": "1.1.0a",
+    "name": "JPConditionVerificationStatusSP"
+  },
+  {
+    "id": "jp-coverage-beneficiary-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-coverage-beneficiary-sp",
+    "version": "1.1.0a",
+    "name": "JPCoverageBeneficiarySP"
+  },
+  {
+    "id": "jp-coverage-identifier-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-coverage-identifier-sp",
+    "version": "1.1.0a",
+    "name": "JPCoverageIdentifierSP"
+  },
+  {
+    "id": "jp-diagnosticreport-category-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-diagnosticreport-category-sp",
+    "version": "1.1.0a",
+    "name": "JPDiagnosticReportCategorySP"
+  },
+  {
+    "id": "jp-diagnosticreport-code-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-diagnosticreport-code-sp",
+    "version": "1.1.0a",
+    "name": "JPDiagnosticreportCodeSP"
+  },
+  {
+    "id": "jp-diagnosticreport-date-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-diagnosticreport-date-sp",
+    "version": "1.1.0a",
+    "name": "JPDiagnosticreportDateSP"
+  },
+  {
+    "id": "jp-diagnosticreport-patient-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-diagnosticreport-patient-sp",
+    "version": "1.1.0a",
+    "name": "JPDiagnosticReportPatientSP"
+  },
+  {
+    "id": "jp-diagnosticreport-servicerequest-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-diagnosticreport-servicerequest-sp",
+    "version": "1.1.0a",
+    "name": "JPDiagnosticReportServiceRequestSP"
+  },
+  {
+    "id": "jp-encounter-class-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-encounter-class-sp",
+    "version": "1.1.0a",
+    "name": "JPEncounterClassSP"
+  },
+  {
+    "id": "jp-encounter-date-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-encounter-date-sp",
+    "version": "1.1.0a",
+    "name": "JPEncounterDateSP"
+  },
+  {
+    "id": "jp-encounter-identifier-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-encounter-identifier-sp",
+    "version": "1.1.0a",
+    "name": "JPEncounterIdentifierSP"
+  },
+  {
+    "id": "jp-encounter-patient-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-encounter-patient-sp",
+    "version": "1.1.0a",
+    "name": "JPEncounterPatientSP"
+  },
+  {
+    "id": "jp-encounter-status-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-encounter-status-sp",
+    "version": "1.1.0a",
+    "name": "JPEncounterStatusSP"
+  },
+  {
+    "id": "jp-encounter-type-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-encounter-type-sp",
+    "version": "1.1.0a",
+    "name": "JPEncounterTypeSP"
+  },
+  {
+    "id": "jp-imagingstudy-bodysite-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-imagingstudy-bodysite-sp",
+    "version": "1.1.0a",
+    "name": "JPImagingStudyBodySiteSP"
+  },
+  {
+    "id": "jp-imagingstudy-encounter-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-imagingstudy-encounter-sp",
+    "version": "1.1.0a",
+    "name": "JPImagingStudyEncounterSP"
+  },
+  {
+    "id": "jp-imagingstudy-modality-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-imagingstudy-modality-sp",
+    "version": "1.1.0a",
+    "name": "JPImagingStudyModalitySP"
+  },
+  {
+    "id": "jp-imagingstudy-patient-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-imagingstudy-patient-sp",
+    "version": "1.1.0a",
+    "name": "JPImagingStudyPatientSP"
+  },
+  {
+    "id": "jp-imagingstudy-started-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-imagingstudy-started-sp",
+    "version": "1.1.0a",
+    "name": "JPImagingStudyStartedSP"
+  },
+  {
+    "id": "jp-location-address-city-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-location-address-city-sp",
+    "version": "1.1.0a",
+    "name": "JPLocationAddressCitySP"
+  },
+  {
+    "id": "jp-location-address-postalcode-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-location-address-postalcode-sp",
+    "version": "1.1.0a",
+    "name": "JPLocationAddressPostalcodeSP"
+  },
+  {
+    "id": "jp-location-address-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-location-address-sp",
+    "version": "1.1.0a",
+    "name": "JPLocationAddressSP"
+  },
+  {
+    "id": "jp-location-address-state-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-location-address-state-sp",
+    "version": "1.1.0a",
+    "name": "JPLocationAddressStateSP"
+  },
+  {
+    "id": "jp-location-name-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-location-name-sp",
+    "version": "1.1.0a",
+    "name": "JPLocationNameSP"
+  },
+  {
+    "id": "jp-medicationadministration-code-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-medicationadministration-code-sp",
+    "version": "1.1.0a",
+    "name": "JPMedicationAdministrationCodeSP"
+  },
+  {
+    "id": "jp-medicationadministration-effectivedatetime-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-medicationadministration-effectivedatetime-sp",
+    "version": "1.1.0a",
+    "name": "JPMedicationAdministrationEffectiveDatetimeSP"
+  },
+  {
+    "id": "jp-medicationadministration-identifier-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-medicationadministration-identifier-sp",
+    "version": "1.1.0a",
+    "name": "JPMedicationAdministrationIdentifierSP"
+  },
+  {
+    "id": "jp-medicationadministration-patient-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-medicationadministration-patient-sp",
+    "version": "1.1.0a",
+    "name": "JPMedicationAdministrationPatientSP"
+  },
+  {
+    "id": "jp-medicationdispense-code-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-medicationdispense-code-sp",
+    "version": "1.1.0a",
+    "name": "JPMedicationDispenseCodeSP"
+  },
+  {
+    "id": "jp-medicationdispense-encounter-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-medicationdispense-encounter-sp",
+    "version": "1.1.0a",
+    "name": "JPMedicationDispenseEncounterSP"
+  },
+  {
+    "id": "jp-medicationdispense-identifier-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-medicationdispense-identifier-sp",
+    "version": "1.1.0a",
+    "name": "JPMedicationDispenseIdentifierSP"
+  },
+  {
+    "id": "jp-medicationdispense-patient-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-medicationdispense-patient-sp",
+    "version": "1.1.0a",
+    "name": "JPMedicationDispensePatientSP"
+  },
+  {
+    "id": "jp-medicationdispense-performer-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-medicationdispense-performer-sp",
+    "version": "1.1.0a",
+    "name": "JPMedicationDispensePerformerSP"
+  },
+  {
+    "id": "jp-medicationdispense-whenhandedover-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-medicationdispense-whenhandedover-sp",
+    "version": "1.1.0a",
+    "name": "JPMedicationDispenseWhenHandedOverSP"
+  },
+  {
+    "id": "jp-medicationdispense-whenprepared-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-medicationdispense-whenprepared-sp",
+    "version": "1.1.0a",
+    "name": "JPMedicationDispenseWhenPreparedSP"
+  },
+  {
+    "id": "jp-medicationrequest-authoredon-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-medicationrequest-authoredon-sp",
+    "version": "1.1.0a",
+    "name": "JPMedicationrequestAuthoredOnSP"
+  },
+  {
+    "id": "jp-medicationrequest-category-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-medicationrequest-category-sp",
+    "version": "1.1.0a",
+    "name": "JPMedicationRequestCategorySP"
+  },
+  {
+    "id": "jp-medicationrequest-code-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-medicationrequest-code-sp",
+    "version": "1.1.0a",
+    "name": "JPMedicationRequestCodeSP"
+  },
+  {
+    "id": "jp-medicationrequest-date-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-medicationrequest-date-sp",
+    "version": "1.1.0a",
+    "name": "JPMedicationRequestDateSP"
+  },
+  {
+    "id": "jp-medicationrequest-identifier-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-medicationrequest-identifier-sp",
+    "version": "1.1.0a",
+    "name": "JPMedicationRequestIdentifierSP"
+  },
+  {
+    "id": "jp-medicationrequest-patient-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-medicationrequest-patient-sp",
+    "version": "1.1.0a",
+    "name": "JPMedicationRequestPatientSP"
+  },
+  {
+    "id": "jp-medicationrequest-requester-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-medicationrequest-requester-sp",
+    "version": "1.1.0a",
+    "name": "JPMedicationRequestrRequesterSP"
+  },
+  {
+    "id": "jp-observation-category-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-observation-category-sp",
+    "version": "1.1.0a",
+    "name": "JPObservationCategorySP"
+  },
+  {
+    "id": "jp-observation-code-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-observation-code-sp",
+    "version": "1.1.0a",
+    "name": "JPObservationCodeSP"
+  },
+  {
+    "id": "jp-observation-date-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-observation-date-sp",
+    "version": "1.1.0a",
+    "name": "JPObservationDateSP"
+  },
+  {
+    "id": "jp-observation-encounter-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-observation-encounter-sp",
+    "version": "1.1.0a",
+    "name": "JPObservationEncounterSP"
+  },
+  {
+    "id": "jp-observation-patient-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-observation-patient-sp",
+    "version": "1.1.0a",
+    "name": "JPObservationPatientSP"
+  },
+  {
+    "id": "jp-observation-servicerequest-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-observation-servicerequest-sp",
+    "version": "1.1.0a",
+    "name": "JPObservationServiceRequestSP"
+  },
+  {
+    "id": "jp-observation-value-concept-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-observation-value-concept-sp",
+    "version": "1.1.0a",
+    "name": "JPObservationValueConceptSP"
+  },
+  {
+    "id": "jp-observation-value-quantity-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-observation-value-quantity-sp",
+    "version": "1.1.0a",
+    "name": "JPObservationValueQuantitySP"
+  },
+  {
+    "id": "jp-organization-address-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-organization-address-sp",
+    "version": "1.1.0a",
+    "name": "JPOrganizationAddressSP"
+  },
+  {
+    "id": "jp-organization-identifier-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-organization-identifier-sp",
+    "version": "1.1.0a",
+    "name": "JPOrganizationIdentifierSP"
+  },
+  {
+    "id": "jp-organization-name-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-organization-name-sp",
+    "version": "1.1.0a",
+    "name": "JPOrganizationNameSP"
+  },
+  {
+    "id": "jp-patient-address-postalcode-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-patient-address-postalcode-sp",
+    "version": "1.1.0a",
+    "name": "JPPatientAddressPostalcodeSP"
+  },
+  {
+    "id": "jp-patient-birthdate-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-patient-birthdate-sp",
+    "version": "1.1.0a",
+    "name": "JPPatientBirthdateSP"
+  },
+  {
+    "id": "jp-patient-family-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-patient-family-sp",
+    "version": "1.1.0a",
+    "name": "JPPatientFamilySP"
+  },
+  {
+    "id": "jp-patient-gender-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-patient-gender-sp",
+    "version": "1.1.0a",
+    "name": "JPPatientGenderSP"
+  },
+  {
+    "id": "jp-patient-given-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-patient-given-sp",
+    "version": "1.1.0a",
+    "name": "JPPatientGivenSP"
+  },
+  {
+    "id": "jp-patient-id-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-patient-id-sp",
+    "version": "1.1.0a",
+    "name": "JPPatientIdSP"
+  },
+  {
+    "id": "jp-patient-identifier-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-patient-identifier-sp",
+    "version": "1.1.0a",
+    "name": "JPPatientIdentifierSP"
+  },
+  {
+    "id": "jp-patient-name-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-patient-name-sp",
+    "version": "1.1.0a",
+    "name": "JPPatientNameSP"
+  },
+  {
+    "id": "jp-patient-phone-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-patient-phone-sp",
+    "version": "1.1.0a",
+    "name": "JPPatientphoneSP"
+  },
+  {
+    "id": "jp-practitioner-identifier-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-practitioner-identifier-sp",
+    "version": "1.1.0a",
+    "name": "JPPractitionerIdentifierSP"
+  },
+  {
+    "id": "jp-practitioner-name-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-practitioner-name-sp",
+    "version": "1.1.0a",
+    "name": "JPPractitionerNameSP"
+  },
+  {
+    "id": "jp-practitionerrole-practitioner-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-practitionerrole-practitioner-sp",
+    "version": "1.1.0a",
+    "name": "JPPractitionerrolePractitionerSP"
+  },
+  {
+    "id": "jp-practitionerrole-specialty-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-practitionerrole-specialty-sp",
+    "version": "1.1.0a",
+    "name": "JPPractitionerroleSpecialtySP"
+  },
+  {
+    "id": "jp-procedure-date-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-procedure-date-sp",
+    "version": "1.1.0a",
+    "name": "JPProcedureDateSP"
+  },
+  {
+    "id": "jp-procedure-patient-sp",
+    "type": "SearchParameter",
+    "url": "http://jpfhir.jp/fhir/core/SearchParameter/jp-procedure-patient-sp",
+    "version": "1.1.0a",
+    "name": "JPProcedurePatientSP"
+  },
+  {
+    "id": "JP-AllergyIntolerance",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_AllergyIntolerance",
+    "version": "1.1.0a",
+    "name": "JP_AllergyIntolerance"
+  },
+  {
+    "id": "JP-Condition",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Condition",
+    "version": "1.1.0a",
+    "name": "JP_Condition"
+  },
+  {
+    "id": "JP-Coverage",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Coverage",
+    "version": "1.1.0a",
+    "name": "JP_Coverage"
+  },
+  {
+    "id": "JP-DiagnosticReport-Common",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_DiagnosticReport_Common",
+    "version": "1.1.0a",
+    "name": "JP_DiagnosticReport_Common"
+  },
+  {
+    "id": "JP-DiagnosticReport-LabResult",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_DiagnosticReport_LabResult",
+    "version": "1.1.0a",
+    "name": "JP_DiagnosticReport_LabResult"
+  },
+  {
+    "id": "JP-DiagnosticReport-Radiology",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_DiagnosticReport_Radiology",
+    "version": "1.1.0a",
+    "name": "JP_DiagnosticReport_Radiology"
+  },
+  {
+    "id": "JP-Encounter",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Encounter",
+    "version": "1.1.0a",
+    "name": "JP_Encounter"
+  },
+  {
+    "id": "JP-HumanName",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_HumanName",
+    "version": "1.1.0a",
+    "name": "JP_HumanName"
+  },
+  {
+    "id": "JP-ImagingStudy-Radiology",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_ImagingStudy_Radiology",
+    "version": "1.1.0a",
+    "name": "JP_ImagingStudy_Radiology"
+  },
+  {
+    "id": "JP-Location",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Location",
+    "version": "1.1.0a",
+    "name": "JP_Location"
+  },
+  {
+    "id": "JP-Medication",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Medication",
+    "version": "1.1.0a",
+    "name": "JP_Medication"
+  },
+  {
+    "id": "JP-MedicationAdministration",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationAdministration",
+    "version": "1.1.0a",
+    "name": "JP_MedicationAdministration"
+  },
+  {
+    "id": "JP-MedicationAdministration-Injection",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationAdministration_Injection",
+    "version": "1.1.0a",
+    "name": "JP_MedicationAdministration_Injection"
+  },
+  {
+    "id": "JP-MedicationDispense",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationDispense",
+    "version": "1.1.0a",
+    "name": "JP_MedicationDispense"
+  },
+  {
+    "id": "JP-MedicationDispenseBase",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationDispenseBase",
+    "version": "1.1.0a",
+    "name": "JP_MedicationDispenseBase"
+  },
+  {
+    "id": "JP-MedicationDispense-Injection",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationDispense_Injection",
+    "version": "1.1.0a",
+    "name": "JP_MedicationDispense_Injection"
+  },
+  {
+    "id": "JP-MedicationRequest",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationRequest",
+    "version": "1.1.0a",
+    "name": "JP_MedicationRequest"
+  },
+  {
+    "id": "JP-MedicationRequestBase",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationRequestBase",
+    "version": "1.1.0a",
+    "name": "JP_MedicationRequestBase"
+  },
+  {
+    "id": "JP-MedicationRequest-Injection",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationRequest_Injection",
+    "version": "1.1.0a",
+    "name": "JP_MedicationRequest_Injection"
+  },
+  {
+    "id": "JP-Observation-BodyMeasurement",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_BodyMeasurement",
+    "version": "1.1.0a",
+    "name": "JP_Observation_BodyMeasurement"
+  },
+  {
+    "id": "JP-Observation-Common",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_Common",
+    "version": "1.1.0a",
+    "name": "JP_Observation_Common"
+  },
+  {
+    "id": "JP-Observation-LabResult",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_LabResult",
+    "version": "1.1.0a",
+    "name": "JP_Observation_LabResult"
+  },
+  {
+    "id": "JP-Observation-PhysicalExam",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_PhysicalExam",
+    "version": "1.1.0a",
+    "name": "JP_Observation_PhysicalExam"
+  },
+  {
+    "id": "JP-Observation-SocialHistory",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_SocialHistory",
+    "version": "1.1.0a",
+    "name": "JP_Observation_SocialHistory"
+  },
+  {
+    "id": "JP-Observation-VitalSigns",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_VitalSigns",
+    "version": "1.1.0a",
+    "name": "JP_Observation_VitalSigns"
+  },
+  {
+    "id": "JP-Organization",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Organization",
+    "version": "1.1.0a",
+    "name": "JP_Organization"
+  },
+  {
+    "id": "JP-Patient",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient",
+    "version": "1.1.0a",
+    "name": "JP_Patient"
+  },
+  {
+    "id": "JP-Practitioner",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Practitioner",
+    "version": "1.1.0a",
+    "name": "JP_Practitioner"
+  },
+  {
+    "id": "JP-PractitionerRole",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_PractitionerRole",
+    "version": "1.1.0a",
+    "name": "JP_PractitionerRole"
+  },
+  {
+    "id": "JP-Procedure",
+    "type": "StructureDefinition",
+    "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Procedure",
+    "version": "1.1.0a",
+    "name": "JP_Procedure"
+  },
+  {
+    "id": "jp-core-work-codesystem-EventStatus",
+    "type": "CodeSystem",
+    "url": "https://hl7fhir.jp/fhir/ImplementationGuide/jp-core-work-codesystem-EventStatus",
+    "version": "1.1.0a",
+    "name": "EventStatus"
+  },
+  {
+    "id": "jp-core-work-codesystem-ProcedureCodes",
+    "type": "CodeSystem",
+    "url": "https://hl7fhir.jp/fhir/ImplementationGuide/jp-core-work-codesystem-ProcedureCodes",
+    "version": "1.1.0a",
+    "name": "ProcedureCodes"
+  },
+  {
+    "id": "jp-core-work-valueset-EventStatus",
+    "type": "ValueSet",
+    "url": "https://hl7fhir.jp/fhir/ImplementationGuide/jp-core-work-valueset-EventStatus",
+    "version": "1.1.0a",
+    "name": "EventStatus"
+  },
+  {
+    "id": "jp-core-work-valueset-ProcedureCodes",
+    "type": "ValueSet",
+    "url": "https://hl7fhir.jp/fhir/ImplementationGuide/jp-core-work-valueset-ProcedureCodes",
+    "version": "1.1.0a",
+    "name": "ProcedureCodes"
+  }
+]

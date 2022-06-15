@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "80c5339a-8be2-46d3-828b-85ebf4c407d0",
+  "id" : "4ae1ad5d-9018-43fe-8cbb-20369ebb492a",
   "meta" : {
-    "lastUpdated" : "2022-03-18T02:18:06.184+00:00"
+    "lastUpdated" : "2022-06-15T04:45:37.899+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "name" : "EventStatus",
       "title" : "Procedureの状態",
       "status" : "draft",
-      "date" : "2022-03-18T02:18:06+00:00",
+      "date" : "2022-06-15T04:45:37+00:00",
       "publisher" : "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
       "contact" : [{
         "name" : "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
@@ -40,8 +40,8 @@
       }],
       "copyright" : "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
       "expansion" : {
-        "identifier" : "urn:uuid:8218d6ce-7cde-43f9-852b-9538358fbf11",
-        "timestamp" : "2022-03-18T02:18:42+00:00",
+        "identifier" : "urn:uuid:c9326898-9fa9-41fa-8cfa-16051562fc67",
+        "timestamp" : "2022-06-15T04:46:20+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -108,7 +108,7 @@
       "name" : "ProcedureCodes",
       "title" : "Procedureコード",
       "status" : "draft",
-      "date" : "2022-03-18T02:18:06+00:00",
+      "date" : "2022-06-15T04:45:37+00:00",
       "publisher" : "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
       "contact" : [{
         "name" : "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
@@ -129,8 +129,8 @@
       }],
       "copyright" : "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
       "expansion" : {
-        "identifier" : "urn:uuid:e367ab02-54b2-4a9a-8b5a-777b78521ba4",
-        "timestamp" : "2022-03-18T02:19:07+00:00",
+        "identifier" : "urn:uuid:36dfb6b5-2da7-4af8-82b5-775cf12b2b57",
+        "timestamp" : "2022-06-15T04:46:35+00:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false

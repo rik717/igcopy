@@ -35,6 +35,11 @@
   <packageId value="hl7.fhir.jp.core"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7tx">
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r4"/>
+    <version value="3.1.0"/>
+  </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -295,6 +300,14 @@
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
         <valueString value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="excludelogbinaryformat"/>
       </extension>
       <extension url="value">
         <valueString value="true"/>
